@@ -1,8 +1,50 @@
-/*
-    NOTE TO STUDENTS: 
+#bulletin-board {
+    width: 100%;
+    background-color: #8b5a2b;
+    padding: 24px;
+    font-size: 0px;
+}
 
-    This is the file you should be writing your CSS in 
-    for the Bulletin Board assignment.
+.post-it {
+    background-color: #fff9a3;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    font-size: 16px;
+}
 
-    Good luck, and have fun!
-*/
+/* Color variations */
+.yellow {
+    background-color: #fff9a3;
+}
+
+.pink {
+    background-color: #ffc0cb;
+}
+
+.blue {
+    background-color: #add8e6;
+}
+
+.green {
+    background-color: #b6e3b6;
+}
+
+.orange {
+    background-color: #ffd8a8;
+}
+
+.purple {
+    background-color: #e0c1ff;
+}
+
+.post-it img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 12px;
+}
