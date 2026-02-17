@@ -2,56 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Playlists</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .playlist {
+            width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .playlist img {
+            width: 100%;
+            max-height: 1000px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .playlist h2 {
+            margin-top: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .track-length {
+            float: right;
+            color: gray;
+        }
+    </style>
 </head>
 <body>
-    <img src="images/a0524364986_10.jpg">
-        <ol>
-            <h3>
-                <li> Bless em' with the blade
-                <li> Sinners of the seven seas
-                <li> Kyrie klitorem
-                <li> Heretic hunters
-                <li> 1589
-                <li> Viva volgata
-                <li> Wake up the wicked
-                <li> Joan of arc
-                <li> Thunder priest
-                <li> We dont wanna be no saints
-                <li> Vargamore
-            </h3> 
-        </ol>
-    <img src="images/Sabaton_-_The_Great_War.jpg">
-        <ol>
-            <h3>
-                <li> The future of warfare
-                <li> The attack of the dead men
-                <li> Great war
-                <li> The end of the war to end all wars
-                <li> Seven pillars of wisdom
-                <li> Devil dogs
-                <li> A ghost in the trenches
-                <li> In flanders fields
-                <li> 82nd all the way
-                <li> The red baron
-                <li> Fields of verdun
-            </h3> 
-        </ol>
-    <img src="images/Alestorm-NoGraveButTheSea.jpg">
-        <ol>
-            <h3>
-                <li> No grave but the sea
-                <li> Mexico
-                <li> To the end of the world
-                <li> Alestorm
-                <li> Bar Ünd Imbiss
-                <li> F****d with an Anchor <== "sorry"
-                <li> Pegleg potion
-                <li> Man the pumps
-                <li> Rage of the pentahook
-                <li> Treasure island
-            </h3> 
-        </ol>
+    <!-- PLAYLIST 1 -->
+    <div class="playlist">
+        <h2>Alestorm - No Grave But The Sea</h2>
+        <img src="images/Alestorm-NoGraveButTheSea.jpg" alt="Chill Vibes Album Cover">
+
+        <ul>
+            <li>
+                <i class="fa-solid fa-music"></i>
+                No Grave but the Sea
+                <span class="track-length">3:29</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-music"></i>
+                Mexico
+                <span class="track-length">3:10</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-music"></i>
+                To the End of the World
+                <span class="track-length">6:43</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- PLAYLIST 2 -->
+    <div class="playlist">
+        <h2>Power wolf - Call of The Wild</h2>
+        <img src="images/a2828722250_16.jpg" alt="Workout Playlist Cover">
+
+        <ul>
+            <li>
+                <i class="fa-solid fa-bolt"></i>
+                Faster Than The Flame
+                <span class="track-length">4:08</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-bolt"></i>
+                Beast Of Gévaudan
+                <span class="track-length">3:31</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-bolt"></i>
+                Dancing With The Dead
+                <span class="track-length">4:05</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- PLAYLIST 3 -->
+    <div class="playlist">
+        <h2>Sabaton - The Great War</h2>
+        <img src="images/Sabaton_-_The_Great_War.jpg" alt="Classic Album Cover">
+
+        <ul>
+            <li>
+                <i class="fa-solid fa-compact-disc"></i>
+                The Future of Warfare
+                <span class="track-length">3:26</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-compact-disc"></i>
+                Seven Pillars of Wisdom
+                <span class="track-length">3:02</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-compact-disc"></i>
+                82nd All the Way
+                <span class="track-length">3:31</span>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>

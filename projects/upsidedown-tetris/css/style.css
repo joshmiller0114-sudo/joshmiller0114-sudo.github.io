@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0px;
+    font-family: sans-serif;
+}
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: lightgray;
+    font-size: 0px;
+    margin: 0 auto; /* optional centering */
+}
+
+/* Base block style */
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: black; /* default color */
+}
+
+/* Color styles */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
