@@ -3,6 +3,86 @@
 }
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.left-column, .middle-column, .right-column {
+    padding: 10px;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-column img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.middle-column {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-column img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.right-column {
+    flex: 1.5;
+}
+
+.right-column h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.seller-info a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.seller-info a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #0073e6;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0073e6;
+    color: white;
 }
