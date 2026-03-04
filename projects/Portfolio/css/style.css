@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1%;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(255, 142, 142), #690000);
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+#photos {
+    padding: 0.5%;
+}
+
+#Hero {
+    padding: 5%;
+}
+
+.background {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cards {
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
